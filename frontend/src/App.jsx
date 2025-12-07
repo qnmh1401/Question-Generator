@@ -9,8 +9,8 @@ import Navbar from "./components/navbar.component.jsx";
 
 import AuthProvider from "./context/auth.context.jsx";
 import ProtectedRoute from "./components/protected.route.jsx";
-import StudentRoute from "./components/student.route.jsx";
-import TeacherRoute from "./components/teacher.route.jsx";
+import StudentRoute from "./components/Student.route.jsx";
+import TeacherRoute from "./components/Teacher.route.jsx";
 import logo from "./assets/logo1.png";
 
 export default function App() {
