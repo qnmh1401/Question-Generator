@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import RegisterPage from "./pages/Register.page.jsx";
 import LoginPage from "./pages/Login.page.jsx";
 import DashboardPage from "./pages/dashboard.page.jsx";
-import ExamsPage from "./pages/exam.page.jsx";
+import ExamsPage from "../src/pages/Exam.page.jsx";
 import CreateExamPage from "./pages/CreateExams.page.jsx";
 import DoExamPage from "./pages/StudentDoExam.page.jsx";
 import Navbar from "./components/navbar.component.jsx";
