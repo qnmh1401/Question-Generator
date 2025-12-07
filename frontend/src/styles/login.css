@@ -1,0 +1,56 @@
+@import "sweetalert2/dist/sweetalert2.min.css";
+
+.login-container {
+  width: 380px;
+  height: 295px;
+  margin: 70px auto;
+  margin-top: 200px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+.login-container h2 {
+  color: #0c2f5b;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.login-container input {
+  border: none;
+  width: 90%;
+  height: 90%;
+  outline: none;
+  border-radius: 15px;
+}
+
+.login-container button {
+  width: 370px;
+  height: 45px;
+  margin-left: 5px;
+  border-radius: 15px;
+  margin-top: 15px;
+  background-color: #1670b3;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+}
+
+.input {
+  width: 360px;
+  height: 45px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  padding-inline-start: 8px;
+  margin-left: 5px;
+}
+
+.login-container button:hover {
+  color: #0c2f5b;
+  background-color: white;
+  border: 1px solid black;
+  transition: all ease 1s;
+}

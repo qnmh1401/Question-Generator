@@ -1,0 +1,134 @@
+@import "sweetalert2/dist/sweetalert2.min.css";
+
+.create-exam {
+  margin: auto;
+  margin-top: 150px;
+  max-width: 900px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 15px;
+  margin-bottom: 80px;
+}
+.create-exam input {
+  width: 100%;
+  margin-top: 8px;
+  padding: 8px;
+  margin-left: 10px;
+}
+
+.create-exam h2 {
+  color: #0c2f5b;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 29px;
+}
+
+.create-exam input {
+  width: 850px;
+  outline: none;
+
+  overflow: hidden;
+  padding: 10px;
+  border: 1px solid #0b3050;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.create-input textarea {
+  width: 850px;
+  outline: none;
+
+  min-height: 80px;
+  resize: none;
+  overflow: hidden;
+  padding: 10px;
+  border: 1px solid #0b3050;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.create-exam p {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.question-block {
+  margin-bottom: 40px;
+}
+
+.question-block textarea {
+  width: 850px;
+  outline: none;
+
+  min-height: 30px;
+  resize: none;
+  overflow: hidden;
+  padding: 10px;
+  border: 1px solid #0b3050;
+  border-radius: 8px;
+  font-size: 16px;
+  margin: auto;
+  margin-left: 10px;
+}
+
+.question-h3 {
+  margin-top: 5%;
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+
+.question-heading {
+  font-weight: bold;
+}
+
+.question-block select {
+  width: 200px;
+  height: 45px;
+  background-color: #1670b3;
+  color: white;
+  font-size: 16px;
+  margin-left: 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding-inline-start: 5px;
+}
+
+.question-block option {
+  background-color: white;
+  color: #0b3050;
+}
+
+.create-btn {
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #1670b3;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 20px;
+  outline: none;
+  border: none;
+}
+
+.create-btn:hover {
+  background-color: white;
+  color: #0b3050;
+  border: 1px solid black;
+  transition: all 0.7s ease;
+}
+
+.btn-ok {
+  margin-right: 30px;
+}
+
+.submission {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  width: 100%;
+  margin-bottom: 15px;
+}

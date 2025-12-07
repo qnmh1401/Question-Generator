@@ -1,0 +1,147 @@
+@import "sweetalert2/dist/sweetalert2.min.css";
+.doexam-container {
+  margin-top: 100px;
+}
+
+.doexam-form {
+  width: 380px;
+  height: 180px;
+  margin: 70px auto;
+  margin-top: 150px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+.doexam-form h2 {
+  text-align: center;
+  color: #0c2f5b;
+}
+
+.doexam-form input {
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  width: 90%;
+  height: 90%;
+}
+
+.doexam-form div {
+  display: flex;
+}
+
+.doexam-form button {
+  width: 90px;
+  height: 47px;
+  border-radius: 10px;
+  margin-left: 10px;
+  border: none;
+  color: white;
+  background-color: #1670b3;
+  font-size: 16px;
+}
+
+.doexam-form button:hover {
+  color: #0c2f5b;
+  background-color: white;
+  border: 1px solid black;
+  transition: all ease 1s;
+}
+
+.input-exam {
+  width: 300px;
+  height: 45px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+.doing-exam {
+  margin-top: 190px;
+  display: flex;
+  justify-content: center;
+}
+
+.doing-exam h3 {
+  text-align: center;
+  font-size: 29px;
+  color: #0c2f5b;
+  margin-bottom: 5px;
+}
+
+.title {
+  text-align: center;
+  border: 2px solid black;
+  width: 800px;
+  height: 150px;
+  border-radius: 20px;
+  align-content: center;
+  margin-bottom: 80px;
+}
+
+.question {
+  background-color: white;
+  width: 800px;
+  margin-top: 30px;
+  border-radius: 15px;
+}
+
+.question p {
+  padding: 30px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.choice-form {
+  width: 90%;
+}
+
+.choice-form div {
+  padding-bottom: 30px;
+  padding-left: 40px;
+}
+
+.choice {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.choice input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.radio {
+  width: 18px;
+  height: 18px;
+  border: 2px solid #0b3050;
+  border-radius: 50%;
+  position: relative;
+  transition: 0.2s ease;
+}
+
+.choice input[type="radio"]:checked {
+  background-color: #0b3050;
+  box-shadow: inset 0 0 0 4px white;
+}
+
+.choice:hover .radio {
+  border-color: #1e5b8c;
+}
+
+.btn-submit {
+  color: white;
+  background-color: #1670b3;
+  margin-top: 30px;
+  width: 100px;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 15px;
+}
